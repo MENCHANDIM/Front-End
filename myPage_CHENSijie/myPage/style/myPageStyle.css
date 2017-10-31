@@ -1,0 +1,110 @@
+html,body,#firstSight,div,caption,td{
+    background-color: #000000;
+}
+
+#firstSight{
+    position: relative;
+}
+
+#firework{
+    width: 100%;
+}
+
+.text{
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 1.8;
+    width: 100%;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    color: cornsilk;
+}
+
+#Name{
+    background-color: transparent;
+    position: absolute;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: gold;
+    font-size: 300%;
+    width: 100%;
+    text-shadow: 0.5px 0.5px goldenrod;
+    top: 30%;
+}
+
+#Address{
+    background-color: transparent;
+    color: gold;
+    position: absolute;
+    top: 50%;
+}
+
+#dream{
+    background-color: transparent;
+    color: cornsilk;
+}
+
+caption{
+    text-align: center;
+}
+
+table.content{
+    width: auto;
+    margin: 150px auto;
+}
+
+.cct-info a{
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 1.8;
+    font-family: 'Dosis', sans-serif;
+    color: cornsilk;
+}
+
+td{
+    width: 120px;
+    height: 30px;
+}
+
+.icon{
+    width: 30px;
+}
+
+.bg {
+    z-index: -1;
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+
+    position: relative;
+}
+
+#Saturn{
+    height: 25%;
+    width: 25%;
+    margin:auto;
+    padding: auto;
+    text-align: center
+}
+
+.glyphicon{
+    color: gold;
+}
+
+.copyright div, .copyright a{
+    color: gold;
+    font-family: 'Dosis', sans-serif;
+    text-align: left;
+}
+
+div.copyright{
+    margin-left: 30%;
+    margin-bottom: 40px;
+}
+
+
+
