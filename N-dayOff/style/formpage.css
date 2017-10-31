@@ -1,0 +1,188 @@
+table{
+    margin-left: 20%;
+    padding-top: 30px;
+}
+
+.triangle{
+    margin-right: 5px;
+}
+
+tr.step-row td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*font*/
+.step{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    background-color:rgba(255, 255, 255, 0.35);
+}
+
+.subtext{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 24px;
+}
+
+.hint{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+hr {
+    border:none;
+    border-top:3px dotted #007692;
+    height:1px;
+    width:100%;
+}
+
+/*swing balloon*/
+.hotairballoon {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 20%;
+    height: auto;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+    animation-direction:alternate;
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(-15deg); }
+    to { -moz-transform: rotate(15deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(-15deg); }
+    to { -webkit-transform: rotate(15deg); }
+
+}
+@keyframes spin {
+    from {transform:rotate(-15deg);}
+    to {transform:rotate(15deg);}
+}
+
+/* title button*/
+.btn input {
+    visibility:hidden;
+}
+label {
+    display: inline-block;
+    padding: 4px 8px;
+    margin: 3px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #EB8B94;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px #999;
+}
+
+input[type="radio"]:checked+label {
+    background-color: #ffa224;
+}
+
+label:hover {background-color: #ffa224}
+
+label:active {
+     background-color: #ffa224;
+     box-shadow: 0 2px #666;
+     transform: translateY(2px);
+ }
+
+/*button for modifying duration*/
+#minus, #plus{
+    height: 30px;
+    width: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #EB8B94;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px #999;
+}
+#minus:hover {background-color: #ffa224}
+
+#plus:hover {background-color: #ffa224}
+
+#minus:active {
+    background-color: #ffa224;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+#plus:active {
+    background-color: #ffa224;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+#leave-length{
+    height: 30px;
+    width: 30px;
+    margin: 5px 12px;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+.submit-btn{
+    height: 50px;
+    width: 180px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #EB8B94;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 2px #999;
+}
+
+.submit-btn:hover {background-color: #ffa224}
+
+.submit-btn:active {
+    background-color: #ffa224;
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+}
+
+
+/* Hide HTML5 Up and Down arrows. */
+#leave-length::-webkit-outer-spin-button, #leave-length::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-text input{
+    background-color: transparent;
+    border: 1px solid #666666;
+    height: 20px;
+    width: auto;
+}
+
+/*reference area*/
+.reference,.reference a {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 1.8;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: cornsilk;
+}

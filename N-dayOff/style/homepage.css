@@ -1,0 +1,173 @@
+.pink-circles-area {
+    margin: auto 28%;
+}
+
+/*introduction and title*/
+.intro-title-area {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.intro-title {
+    margin: auto;
+}
+
+#intro {
+    font-size: 1.5vw;
+    color: #007692;
+    font-family: 'Biryani', sans-serif;
+}
+
+#title {
+    font-size: 4vw;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0 5px #fda9b8;
+}
+
+/*theme area*/
+.theme-area{
+    position: absolute;
+    top: 250px;
+    margin-top: 50px;
+    margin-left: 34%;
+    margin-right: 34%;
+    width: 32%;
+}
+
+#theme{
+    font-size: 20px;
+    font-family: 'Biryani', sans-serif;
+    color: #767171;
+    background-color: rgba(255, 255, 255, 0.35);
+    display: block;
+    padding: 8px;
+    width: 100%;
+}
+
+#up-arrow {
+    display: block;
+    margin-top: -16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+
+    -webkit-transition: all 0.8s ease; /* Safari and Chrome */
+    -moz-transition: all 0.8s ease; /* Firefox */
+    /*-ms-transition: all 0.8s ease; !* IE 9 *!*/
+    -o-transition: all 0.8s ease; /* Opera */
+    transition: all 0.8s ease;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+.main-part{
+    width: 100%;
+}
+
+/*write button*/
+.write-area {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    display: none;
+}
+
+.write-dot-line {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.write-dot-line a {
+    background-color: rgba(255, 255, 255, 0.35);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.write-dot-line a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted #fff;
+    background-color: transparent;
+    color: #fff;
+    height: 1px;
+    width: 40%;
+}
+
+/*swing balloon*/
+.balloon-area {
+    position: absolute;
+    text-align: center;
+    top: 135px;
+    width: 32%;
+    margin: auto 34%;
+    display: none;
+}
+
+.hot-air-balloon {
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    animation-direction: alternate;
+}
+
+@-moz-keyframes spin {
+    from {
+        -moz-transform: rotate(-15deg);
+    }
+    to {
+        -moz-transform: rotate(15deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(-15deg);
+    }
+    to {
+        -webkit-transform: rotate(15deg);
+    }
+
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+/*reference area*/
+.reference,.reference a {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    line-height: 1.8;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: cornsilk;
+}

@@ -1,0 +1,38 @@
+html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5f4;
+}
+
+.white-area{
+    background-color: white;
+    min-height: 600px;
+    padding-bottom: 20px;
+}
+
+.darkpink-area{
+    background-color: #ffd1d4;
+    min-height: 600px;
+    width: 96%;
+    margin: 0 2%;
+    position: relative;
+}
+
+.home-btn a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-size: 24px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.home-btn{
+    padding: 5px 30px;
+}

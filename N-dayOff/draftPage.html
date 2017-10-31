@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/draftpage.css">
+    <link rel="stylesheet" type="text/css" href="style/background.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans" rel="stylesheet">
+    <title>email sample</title>
+</head>
+<body>
+
+<div>
+    <!-- white area -->
+    <div class="white-area">
+        <div class="home-btn">
+            <a href="homePage.html">N_DAY OFF</a>
+        </div>
+
+        <!-- dark pink area -->
+        <div class="darkpink-area">
+
+            <!--image balloon-->
+            <div>
+                <img src="image/hotairballoon.svg" class="hotairballoon" width="20%">
+                <a href="formPage.html" id="write-another">Write another one</a>
+            </div>
+
+            <table>
+                <tr>
+                    <td id="col1">
+                        <div class="choice-area">
+                            <button class="choice-btn" onclick="displayData(this)" id="draft1">draft 1</button>
+                            <button class="choice-btn" onclick="displayData(this)" id="draft2">draft 2</button>
+                            <button class="choice-btn" onclick="displayData(this)" id="draft3">draft 3</button>
+                        </div>
+                    </td>
+                    <td id="col2">
+                        <div class="result-area">
+                            <p id="res"></p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <!--easter egg area-->
+            <div class="easter-egg-area">
+                <p id="egg"></p>
+            </div>
+
+            <!--copy area-->
+            <button id="copyBtn" onclick="CopyToClipboard('res')">COPY</button>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="script/getCookieData.js"></script>
+</body>
+</html>
